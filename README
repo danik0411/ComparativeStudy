@@ -1,0 +1,16 @@
+# this README file is written by Daniyar Bakir
+
+the structure of this project is as follows:
+
+data/ - folder with databases as .txt files
+src_experiments_C++/ - folder with all source codes required to run the comparison experiments. They are mostly written by Professors, and slightly modified by me (Daniyar Bakir)
+src_experiments_C++/Makefile - a makefile written by Professors
+data_analysis.R - an .R file which computes Gene Expression Omnibus
+checkNat.sh - a file that can run all experiments on Natsoulis database, you can find the main command to run a single experiment here
+README - this readme
+
+
+NOTES:
+1) in order to read the databases from a custom folder, look through the checkNat.sh file to change the database folder
+2) to save the results and logs into default folders, you should create the logs and results folder in the root directory
+
